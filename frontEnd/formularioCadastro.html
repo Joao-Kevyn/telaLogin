@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Criar Conta</title>
+    <!-- Importando o arquivo styleCadastro.css -->
     <link rel="stylesheet" href="../css/styleCadastro.css">
 </head>
 <body>
@@ -33,11 +34,10 @@
                 <input type="password" id="confirma-senha" placeholder="Repita a senha" required>
             </div>
 
-            <!-- Adicionei a linkagem do botão "entrar" direto com a tela home, posteriormente eu vou adicionar o backend em python e vou tirar esse link -->
-            <a href="home.html" class="btn-submit" style="display: block; text-align: center; text-decoration: none; line-height: normal; box-sizing: border-box;">Cadastrar</a>
+            <button type="submit" class="btn-submit">Cadastrar</button>
 
             <p class="signup-text">
-                Já tem uma conta? <a href="telaLogin.html">Entrar</a>
+                Já tem uma conta? <a href="home.html" class="btn-submit" style="display: block; text-align: center; text-decoration: none; line-height: normal;">Entrar</a>
             </p>
         </form>
     </div>
